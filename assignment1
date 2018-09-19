@@ -9,3 +9,35 @@
 
  return 0; /* indicate that program ended successfully */
  } /* end function main */
+ 
+questions
+what is function of #?
+#indicates the beginning of the program  the preprocessor starts excecuting from#.
+Preprocessor processes all the lines beginning with #.
+What is preprocessor?
+Preprocessor is a program.
+What is a program?
+Program takes input gives output.
+Preprocessor takes C program and gives out preprocessed C program.
+What is a C program?
+C program is a files that contains C code.
+What is C code?
+Code written in C language.
+What is preprocessed C program?
+Before preprocessing C programs ( code in a file ) will have lines starting with #.
+Preprocessor processes lines starting with # 
+Produces Preprocessed C file and the ppCfile will not contain lines starting with #. 
+
+
+
+what is <stdio.h>?
+it is a heddar file i.e. it acts as a library n helps in checking if there are errors are there in the programme.
+what is /* ?
+a comment starts with /*.
+what is a comment?
+it is a statment which can easily be understood by humans.
+what is int?
+it is the shortform of intgers.it is used to define variable.
+what is main?
+it is a function which is 1st excecuted by system.
+what is void?
