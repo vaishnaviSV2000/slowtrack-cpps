@@ -1,6 +1,13 @@
-EDITOR-programmer creates a programme n stores it in the disc.
+EDITOR-programmer creates a programme and  stores it in the disk.
 PREPROCESSOR-Preprocessor processes the programmes.
-COMPILER-Creates object code and stores it in the disc.
-LINKER-It links the object code with libraries n creates a executlable file and stoers it in the disc. 
+COMPILER-Creates object code and stores it in the disk.
+LINKER-It links the object code with libraries and creates a executlable file and stores it in the disk. 
 LODER-It lodes the programme into the memory.
 CPU-It takes the instructions and executes it.
+what is disk refers to ?
+It is an external storage device which is used to store information.
+what is preprocessor?
+
+what is object code ?
+ what is excutable file ?
+  what is memory ?
