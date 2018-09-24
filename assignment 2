@@ -1,0 +1,6 @@
+EDITOR-programmer creates a programme n stores it in the disc.
+PREPROCESSOR-Preprocessor processes the programmes.
+COMPILER-Creates object code and stores it in the disc.
+LINKER-It links the object code with libraries.
+LODER-It lodes the programm into the memory.
+CPU-It takes the instructions and executes it.
