@@ -4,10 +4,13 @@ COMPILER-Creates object code and stores it in the disk.
 LINKER-It links the object code with libraries and creates a executlable file and stores it in the disk. 
 LODER-It lodes the programme into the memory.
 CPU-It takes the instructions and executes it.
-what is disk refers to ?
+What is disk refers to ?
 It is an external storage device which is used to store information.
-what is preprocessor?
-
-what is object code ?
- what is excutable file ?
-  what is memory ?
+What is preprocessor?
+Preprocessor is a device that processes the lines starting from # and creates preprocessed files which donot contain #.
+What is object code ?
+Object code is a code which can be recognised and executed by the computer(binary language).
+What is excutable file ?
+It is a binary file 
+What is memory ?
+It is the physical capability of storing information. 
