@@ -1,16 +1,7 @@
-EDITOR-We write the programme using and and make the necessary changes and store the programmme in external storage device  
-PREPROCESSOR-Preprocessor processes the programmes.
-COMPILER-Creates object code and stores it in the disk.
-LINKER-It links the object code with libraries and creates a executlable file and stores it in the disk. 
-LODER-It lodes the programme into the memory.
-CPU-It takes the instructions and executes it.
-What is disk refers to ?
-It is an external storage device which is used to store information.
-What is preprocessor?
-Preprocessor is a device that processes the lines starting from # and creates preprocessed files which donot contain #.
-What is object code ?
-Object code is a code which can be recognised and executed by the computer(binary language).
-What is excutable file ?
-It is a binary file 
-What is memory ?
-It is the physical capability of storing information. 
+EDITOR-We write the programme using editor and make the necessary changes and store the programmme in external storage device such as 
+harddisk.
+PREPROCESSOR-Obeys speical commands called as preprocessor directives,which indicates the manipulations to be done before compilation.
+COMPILER-It translates a programme into binary language.(It  converts the code into machine level code)
+LINKER-It links the objectcode to the libraries in order to replace the holes with code to produce exectuable functions.
+LODER-The programme must be loaded before it is ececuted.The programme is loaded to the memory by by loader.
+CPU-It executes the programme.
