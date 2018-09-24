@@ -1,4 +1,4 @@
-EDITOR-programmer creates a programme and  stores it in the disk.
+EDITOR-We write the programme using and and make the necessary changes and store the programmme in external storage device  
 PREPROCESSOR-Preprocessor processes the programmes.
 COMPILER-Creates object code and stores it in the disk.
 LINKER-It links the object code with libraries and creates a executlable file and stores it in the disk. 
