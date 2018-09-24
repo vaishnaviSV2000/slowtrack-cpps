@@ -1,6 +1,6 @@
 EDITOR-programmer creates a programme n stores it in the disc.
 PREPROCESSOR-Preprocessor processes the programmes.
 COMPILER-Creates object code and stores it in the disc.
-LINKER-It links the object code with libraries.
-LODER-It lodes the programm into the memory.
+LINKER-It links the object code with libraries n creates a executlable file and stoers it in the disc. 
+LODER-It lodes the programme into the memory.
 CPU-It takes the instructions and executes it.
