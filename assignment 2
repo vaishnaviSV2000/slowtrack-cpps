@@ -6,3 +6,23 @@ LINKER-It links the objectcode to the libraries in order to replace the holes wi
 LOADER-The programme must be loaded before it is ececuted.The programme is loaded to the memory by by loader.
 CPU-It executes the programme.
 What is a hole?
+
+
+
+# include <stdio.h>
+int main (void)
+{
+    int integer 1;
+    int integer 2;
+    int sum;
+
+    printf("enter the value of integer 1"/n*);
+    scanf"("%d"& integer 1");
+
+    printf("enter the value of integer 2");
+    scanf("%d" &  integer 2);
+
+    printf("sum");
+
+    return 0;
+}
