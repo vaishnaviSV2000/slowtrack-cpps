@@ -10,19 +10,21 @@ What is a hole?
 
 
 # include <stdio.h>
-int main (void)
+int main ()
 {
-    int integer 1;
-    int integer 2;
+    int integer1;
+    int integer2;
     int sum;
 
-    printf("enter the value of integer 1"/n*);
-    scanf"("%d"& integer 1");
+    printf("enter first integer/n");
+    scanf("%d",&integer1);
 
-    printf("enter the value of integer 2");
-    scanf("%d" &  integer 2);
+    printf("enter second integer/n");
+    scanf("%d",&integer2);
+    sum =(integer1 + integer2);
 
-    printf("sum");
+    printf("%d",sum);
 
     return 0;
 }
+
