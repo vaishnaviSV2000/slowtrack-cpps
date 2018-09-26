@@ -28,3 +28,15 @@ int main ()
     return 0;
 }
 
+What is variable?
+Variable is a name given to the storage area.
+What are types of variables?
+int- Whole number
+char-single charecter
+float-intege with decimals
+doble-precision in floating point value
+void- valueless special purpose variables 
+What are the basic types of variable in C?
+Basic types of variable are
+global variable-The value of the variable is initally defined by system
+local variable-The value must be given by programmer
