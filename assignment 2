@@ -5,7 +5,7 @@ COMPILER-It translates a programme into binary language.(It  converts the code i
 LINKER-It links the objectcode to the libraries in order to replace the holes with code to produce exectuable functions.
 LOADER-The programme must be loaded before it is ececuted.The programme is loaded to the memory by by loader.
 CPU-It executes the programme.
-What is a hole?
+
 
 
 
