@@ -1,12 +1,12 @@
 EDITOR-We write the programme using editor and make the necessary changes and store the programmme in external storage device such as 
 harddisk.
-PREPROCESSOR-Obeys speical commands called as preprocessor directives,which indicates the manipulations to be done before compilation.
-COMPILER-It translates a programme into binary language.(It  converts the code into machine level code)
+Function of PREPROCESSOR-Obeys speical commands called as preprocessor directives,which indicates the manipulations to be done before compilation.
+COMPILER-It translates a programme into machine language, checks for errors and warnings.
 LINKER-It links the objectcode to the libraries in order to replace the holes with code to produce exectuable functions.
-LOADER-The programme must be loaded before it is ececuted.The programme is loaded to the memory by by loader.
+LOADER-The programme must be loaded before it is executed.The programme is loaded to the memory by by loader.
 CPU-It executes the programme.
-
-
+*What is hole?
+ If the file is not defined it is called a hole.
 
 
 # include <stdio.h>
@@ -38,5 +38,5 @@ doble-precision in floating point value
 void- valueless special purpose variables 
 What are the basic types of variable in C?
 Basic types of variable are
-global variable-The value of the variable is initally defined by system
-local variable-The value must be given by programmer
+global variable-The variables that are not declared inside any function including main.
+local variable-The variables that are declared within any function including main.
