@@ -18,3 +18,9 @@ What is sub routine?
   It is the sequence of program instruction which performs a specific task.
 The function name and the parameter list together constitute the function signature.
 what is signature function?
+  A parameter is like a placeholder.
+  What is a placeholder?
+  It defines the input and output of the function.
+  Given below is the source code for a function called max().
+    What is source code?
+    
