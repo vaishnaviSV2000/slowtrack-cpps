@@ -23,4 +23,12 @@ what is signature function?
   It defines the input and output of the function.
   Given below is the source code for a function called max().
     What is source code?
+    Source code is the set of instructions and statements written by a programmer using a computer programming language.
+    If a function is to use arguments, it must declare variables that accept the values of the arguments
+    What is an argument?
+    Arguments are the values supplied to the procedure when it is called.
+    
+    These variables are called the formal parameters of the function.
+    What is formal parameter?
+    
     
