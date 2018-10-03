@@ -4,7 +4,7 @@ Trivial programes are simple programs.
 A function declaration tells the compiler about a function's name, return type, and parameters. A
 What is function declaration?
 A declaration is a language construct that specifies properties of an identifier: it declares what a word (identifier) "means".  
-What is functio parameter?
+What is function parameter?
 The term parameter is used to reffer to the variable found in the function.
 For example, strcat() to concatenate two strings, memcpy() to copy one memory location to another location, and many more functions.
 What is strcat()?
@@ -27,8 +27,12 @@ what is signature function?
     If a function is to use arguments, it must declare variables that accept the values of the arguments
     What is an argument?
     Arguments are the values supplied to the procedure when it is called.
-    
+    What is procedure in c?
+    Small sections of code used to perform specific task.
     These variables are called the formal parameters of the function.
     What is formal parameter?
+    It is used to define the variable used in function.
+    This method copies the actual value of an argument into the formal parameter of the function.
+   
     
     
