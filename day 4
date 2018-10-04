@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int x,y;
+    float z;
+    
+    printf("enter the value of x\n");
+    scanf("%d",&x);
+    
+    printf("enter the value of y\n");
+    scanf("%d",&y);
+    
+    z=0.5*x*y;
+    printf("%f",z);
+    
+    return 0;
+}
+    
