@@ -16,4 +16,21 @@ int main(void)
     
     return 0;
 }
+Function of area of triangle
+#include <stdio.h>
+float area_of_triangle(float a,float b)
+{
+ float s;
+ s=0.5*a*b;
+ return s;
+}
+int main()
+{
+  float a,b,s;
+  printf("Enter the base and height of triangle : \n");
+  scanf("%f%f",&a,&b);
+  s=area_of_triangle(a,b);
+  printf("Area of triangle is : %f\n",s);
+  return 0;
+}
     
