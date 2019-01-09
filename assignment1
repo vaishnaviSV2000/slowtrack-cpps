@@ -47,7 +47,7 @@ It is the standard c programme used for obtaining out put.
 what is \n?
 It is used to move the cursor to the next line.
 what is ;?
-It tells the compiler that you are at the end of the programme.
+It is used to terminate the statement.
 What is return?
 It is used in telling the system weather you are succesfull or not.
 what is return 0?
