@@ -93,3 +93,41 @@ int main ()
         o=compute(x,y,z);
         output(o,x,y,z);
 }
+
+
+
+#include<stdio.h>
+int input(int *a,int *b,int *c)
+{
+        printf("enter 3 numbers");
+        scanf("%d%d%d",a,b,c);
+}
+
+int compute(int a,int b,int c)
+{
+        int min;
+        min=a;
+        if(b<min)
+        {
+                min=b;
+        }
+        if(c<min)
+        {
+                min=c;
+        }
+        return min; 
+}
+int output(int o,int x,int y,int z)
+{
+        printf("%d is smaller than %d,%d and %d",o,x,y,z);
+}
+int main ()
+{
+        int o;
+        int x;
+        int y;
+        int z;
+        input(&x,&y,&z);
+        o=compute(x,y,z);
+        output(o,x,y,z);
+}
