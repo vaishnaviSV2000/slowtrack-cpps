@@ -15,3 +15,39 @@ int input_2(int n,int sum)
 		printf("enter the values of arry elements"),sum[n];
 	}
 }
+
+
+
+
+#include<stdio.h>
+int input(int *a)
+{
+	printf("enter the value of a");
+	scanf("%d",a);
+}
+int compute(int b)
+{
+	int i,sum[b],s=0;
+	printf("enter the numbers to be added");
+	for(i=0;
+	{
+	}
+	for(i=0;i<b;i++)
+		{
+			s=s+sum[i];
+			return s;
+		}
+}
+int output(int s)
+{
+	printf("the result is %d",s);
+}
+int main(int x,int z)
+{
+	input(&x);
+	z=compute(x);
+	output(z);
+}
+
+
+
