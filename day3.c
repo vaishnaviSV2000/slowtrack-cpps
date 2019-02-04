@@ -87,6 +87,42 @@ int main(int x,int z)
 }
 
 
+#include<stdio.h>
+int input()
+{
+	int a;
+	printf("enter the number of value to be added");
+	scanf("%d",&a);
+	return a;
+	
+}
+int compute(int a)
+{
+	int i,sum[a],s=0;
+	printf("enter the all numbers to be added/n");
+	for(i=0;i<a;i++)
+	{
+	scanf("%d",&sum[i]);
+	}
+	for(i=0;i<a;i++)
+	{
+		s=s+sum[i];
+		
+	}
+	return s;
+}
+int output(int s)
+{
+	printf("the result is %d",s);
+}
+int main()
+{
+	int x,z;
+	x=input();
+	z=compute(x);
+	output(z);
+}
+
 
 
 
