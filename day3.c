@@ -49,5 +49,44 @@ int main(int x,int z)
 	output(z);
 }
 
+	    
+	    
+	    
+	    
+	    #include<stdio.h>
+int input(int *a)
+{
+	printf("enter the value of a");
+	scanf("%d",a);
+	
+}
+int compute(int a)
+{
+	int i,sum[a],s=0;
+	printf("enter the numbers to be added/n");
+	for(i=0;i<a;i++)
+	{
+	scanf("%d",&sum[a]);
+	}
+	for(i=0;i<a;i++)
+	{
+		s=s+sum[a];
+		
+	}
+	return s;
+}
+int output(int s)
+{
+	printf("the result is %d",s);
+}
+int main(int x,int z)
+{
+	input(&x);
+	z=compute(x);
+	output(z);
+}
+
+
+
 
 
