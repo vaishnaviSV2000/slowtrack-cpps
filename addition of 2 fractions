@@ -1,20 +1,32 @@
 #include<stdio.h>
 struct fraction
 {
-	int numarator;
-	int denominator;
+	int num;
+	int den;
 };
-void input_fraction(struct fraction *f1)
+struct input_fraction1(struct fraction *f1)
 {
-	printf("enter the numarator");
-	scanf("%d",f1->numarator);
-	printf("enter the denominator");
-	scanf("%d",f1->denominator);
+	printf("enter the value of numarator");
+	scanf("%d",&num->f1);
+	printf("enter the value of denominator");
+	scanf("%d",&den->f1);
 }
-void input_fraction2(struct fraction *f2)
+struct input_fraction2(struct fraction *f2)
 {
-	printf("enter the numarator");
-	scanf("%d",f2->numarator);
-	printf("enter the denominator");
-	scanf("%d",f2->denominator);
+	printf("enter the value of numarator");
+	scanf("%d",&num->f2);
+	printf("enter the value of denominator");
+	scanf("%d",&den->f2);
+}/*
+void sum_fraction(&fract1,&fract2,struct *f)
+{
+	den=den1(.)fract1*den2(.)fract2;
+	num=(num1(.)fract1*den2(.)fract2)+(num2(.)fract2*den1(.)fract1);
+}*/
+void main()
+{
+	struct fraction fract1,fract2;
+	input_fraction1(&fract1);
+	input_fraction2(&fract2);
+	
 }
