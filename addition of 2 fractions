@@ -4,29 +4,36 @@ struct fraction
 	int num;
 	int den;
 };
-void input_fraction1(struct fraction *f1)
+void input1(struct fraction *f1)
 {
-	printf("enter the value of numarator");
-	scanf("%d",&num->f1);
-	printf("enter the value of denominator");
-	scanf("%d",&den->f1);
+	printf("enter the numerator");
+	scanf("%d",&f1->num);
+	printf("enter the denominator");
+	scanf("%d",&f1->den);
 }
-void input_fraction2(struct fraction *f2)
+void input2(struct fraction *f2)
 {
-	printf("enter the value of numarator");
-	scanf("%d",&num->f2);
-	printf("enter the value of denominator");
-	scanf("%d",&den->f2);
-}/*
-void sum_fraction(&fract1,&fract2,struct *f)
+	printf("enter the numerator");
+	scanf("%d",&f2->num);
+	printf("enter the denominator");
+	scanf("%d",&f2->den);
+}
+struct fraction compute(struct fraction f1,struct fraction f2)
 {
-	den=den1.fract1*den2.fract2;
-	num=(num1.fract1*den2.fract2)+(num2.fract2*den1.fract1);
-}*/
-void main()
+	struct fraction fs;
+	fs.num=(f1.num*f2.den)+(f2.num*f1.den);
+	fs.den=(f1.den*f2.den);
+	return fs;
+}
+void output(struct fraction fs)
 {
-	struct fraction fract1,fract2;
-	input_fraction1(&fract1);
-	input_fraction2(&fract2);
-	
+	printf("%d/%d is the fraction",fs.num,fs.den);
+} 
+int main()
+{	
+	struct fraction fr1,fr2,frs;
+	input1(&fr1);
+	input2(&fr2);
+	frs=compute(fr1,fr2);
+	output(frs);
 }
