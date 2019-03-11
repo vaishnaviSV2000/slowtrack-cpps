@@ -27,3 +27,4 @@ void main()
 	input1(&r);
 	input2(r,a[i]);
 }
+
