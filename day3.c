@@ -1,110 +1,25 @@
 #include<stdio.h>
-int input_1(int *a)
-{
-	int n,sum;
-	printf("enter the value of n");
- 	scanf("%d",&n);
-	int sum[n];
-	return n;
-}
-int input_2(int n,int sum)
-{
-	int i;	
-	for(i=0;i<n;i++)
-	{
-		printf("enter the values of arry elements"),sum[n];
-	}
-}
-
-
-
-
-#include<stdio.h>
-int input(int *a)
-{
-	printf("enter the value of a");
-	scanf("%d",a);
-}
-int compute(int b)
-{
-	int i,sum[b],s=0;
-	printf("enter the numbers to be added");
-	for(i=0;
-	{
-	}
-	for(i=0;i<b;i++)
-		{
-			s=s+sum[i];
-			return s;
-		}
-}
-int output(int s)
-{
-	printf("the result is %d",s);
-}
-int main(int x,int z)
-{
-	input(&x);
-	z=compute(x);
-	output(z);
-}
-
-	    
-	    
-	    
-	    
-	    #include<stdio.h>
-int input(int *a)
-{
-	printf("enter the value of a");
-	scanf("%d",a);
-	
-}
-int compute(int a)
-{
-	int i,sum[a],s=0;
-	printf("enter the numbers to be added/n");
-	for(i=0;i<a;i++)
-	{
-	scanf("%d",&sum[a]);
-	}
-	for(i=0;i<a;i++)
-	{
-		s=s+sum[a];
-		
-	}
-	return s;
-}
-int output(int s)
-{
-	printf("the result is %d",s);
-}
-int main(int x,int z)
-{
-	input(&x);
-	z=compute(x);
-	output(z);
-}
-
-
-#include<stdio.h>
 int input()
 {
 	int a;
-	printf("enter the number of value to be added");
+	printf("enter the value of a");
 	scanf("%d",&a);
 	return a;
-	
 }
-int compute(int a)
+void input2(int a,int sum[])
 {
-	int i,sum[a],s=0;
-	printf("enter the all numbers to be added/n");
+	int i;
+	printf("enter the numbers to be added\n");
 	for(i=0;i<a;i++)
 	{
-	scanf("%d",&sum[i]);
+		scanf("%d",&sum[i]);
 	}
-	for(i=0;i<a;i++)
+}
+/*int compute(int *a,int sum[])
+{
+	int i;
+	int s=0;
+	for(i=0;i<*a;i++)
 	{
 		s=s+sum[i];
 		
@@ -115,14 +30,15 @@ int output(int s)
 {
 	printf("the result is %d",s);
 }
+*/
 int main()
 {
-	int x,z;
+	int x;
 	x=input();
-	z=compute(x);
-	output(z);
+	int sum[x];
+	input2(x,sum);
+/*	z=compute(sum[j],&x);
+	output(z);q
+*/
 }
-
-
-
 
