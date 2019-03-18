@@ -1,45 +1,38 @@
 #include<stdio.h>
-int input()
+void input(int *n)
 {
-	int a;
-	printf("enter the value of a");
-	scanf("%d",&a);
-	return a;
+	printf("enter a number");
+	scanf("%d",n);
 }
-void input2(int a,int sum[])
+void input2(int n,int a[n])
 {
 	int i;
-	printf("enter the numbers to be added\n");
-	for(i=0;i<a;i++)
+	printf("enter the array elements");
+	for(i=0;i<n;i++)
 	{
-		scanf("%d",&sum[i]);
+		scanf("%d",&a[i]);
 	}
 }
-/*int compute(int *a,int sum[])
-{
+int compute(int n,int a[n])
+{	
 	int i;
-	int s=0;
-	for(i=0;i<*a;i++)
+	int sum=0;
+	for(i=0;i<n;i++)
 	{
-		s=s+sum[i];
-		
+		sum=sum+a[i];
 	}
-	return s;
+	return sum;
 }
-int output(int s)
+void output(int sum)
 {
-	printf("the result is %d",s);
+	printf("%d is the sum",sum);
 }
-*/
-int main()
+int  main()
 {
-	int x;
-	x=input();
-	int sum[x];
-	input2(x,sum);
-/*	z=compute(sum[j],&x);
-	output(z);q
-*/
+	int n,sum;
+	input(&n);
+	int a[n];
+	input2(n,a);
+	sum=compute(n,a);
+	output(sum);
 }
-
-
