@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 struct fraction
 {
@@ -10,10 +9,10 @@ void input1(int *r)
 	printf("enter the value of n");
 	scanf("%d",r);
 }	
-struct fraction input2(int *r,struct fraction a[])
+struct fraction input2(int r,struct fraction a[])
 {
 	int i;
-	for(i=0;i<*r;i++)
+	for(i=0;i<r;i++)
 	{
 		printf("enter the numerator");
 		scanf("%d",&a[i].n);
@@ -22,16 +21,20 @@ struct fraction input2(int *r,struct fraction a[])
 	} 
 	
 }
-void compute(struct fraction a[],struct fraction sum,int *r)
+void compute(struct fraction a[],struct fraction sum,int r)
 {
 	sum.n=1;
 	sum.d=1;
 	int i;
-	for(i=0;i<*r;i++)
+	for(i=0;i<r;i++)
 	{
-	  	sum.n=sum.n*a[i].d+a[i].n*sum.d;
+	  	sum.n=(sum.n*sum.d)+(sum.n*sum.d);
 		sum.d=sum.d*a[i].d;
 	}
+	
+}
+void output(struct fraction sum)
+{
 	printf("%d/%d",sum.n,sum.d);
 }
 int main()
@@ -40,7 +43,8 @@ int main()
 	struct fraction a[i];
 	struct fraction sum; 
 	input1(&r);
-	input2(&r,&a[r]);
-	compute(&a[r],sum,&r);
+	input2(r,a);
+	compute(a,sum,r);
+	output(sum);
 }
 
