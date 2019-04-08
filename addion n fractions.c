@@ -14,24 +14,34 @@ struct fraction input2(int r,struct fraction a[])
 	int i;
 	for(i=0;i<r;i++)
 	{
-		printf("enter the numerator");
+		printf("enter the numerator\n");
 		scanf("%d",&a[i].n);
-		printf("enter the denominator");
+		printf("enter the denominator\n");
 		scanf("%d",&a[i].d);
 	} 
 	
 }
-void compute(struct fraction a[],struct fraction sum,int r)
+struct fraction compute(struct fraction a[],struct fraction sum,int r)
 {
 	sum.n=1;
 	sum.d=1;
 	int i;
 	for(i=0;i<r;i++)
 	{
-	  	sum.n=(sum.n*sum.d)+(sum.n*sum.d);
-		sum.d=sum.d*a[i].d;
+		if(sum.d!)
+		{
+			sum.n=sum.n+a[i].n*(sum.d/a[i].d);
+			sum.d=sum.d*(sum.d/a[i].d);
+		}
+		else
+		{
+	  		sum.n=(sum.n*a[i].d)+(sum.d*a[i].n);
+			sum.d=sum.d*a[i].d;
+		}
+		
 	}
-	
+	printf("%d/%d\n",sum.n,sum.d);
+	return sum;
 }
 void output(struct fraction sum)
 {
@@ -47,4 +57,3 @@ int main()
 	compute(a,sum,r);
 	output(sum);
 }
-
