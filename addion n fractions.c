@@ -1,3 +1,5 @@
+
+
 #include<stdio.h>
 struct fraction
 {
@@ -23,22 +25,34 @@ struct fraction input2(int r,struct fraction a[])
 }
 struct fraction compute(struct fraction a[],struct fraction sum,int r)
 {
-	sum.n=1;
+	sum.n=0;
 	sum.d=1;
 	int i;
 	for(i=0;i<r;i++)
 	{
-		if(sum.d!)
+		if(sum.d!=a[i].d)
 		{
-			sum.n=sum.n+a[i].n*(sum.d/a[i].d);
-			sum.d=sum.d*(sum.d/a[i].d);
+			if(sum.d%a[i].d==0)
+			{
+				sum.n=sum.n+a[i].n*(sum.d/a[i].d);
+				sum.d=sum.d;
+			}
+			else if(a[i].d%sum.d==0)
+			{
+				sum.n=sum.n*(a[i].d/sum.d)+a[i].n;
+				sum.d=a[i].d;
+			}
+			else
+			{
+				sum.n=sum.n*a[i].d+a[i].n*sum.d;
+				sum.d=a[i].d*sum.d;
+			}
 		}
 		else
 		{
-	  		sum.n=(sum.n*a[i].d)+(sum.d*a[i].n);
-			sum.d=sum.d*a[i].d;
+			sum.n=a[i].n+sum.n;
+			sum.d=a[i].d;
 		}
-		
 	}
 	printf("%d/%d\n",sum.n,sum.d);
 	return sum;
@@ -50,10 +64,13 @@ void output(struct fraction sum)
 int main()
 {
 	int i,r;
+	struct fraction k;
 	struct fraction a[i];
 	struct fraction sum; 
 	input1(&r);
 	input2(r,a);
-	compute(a,sum,r);
+	sum=compute(a,sum,r);
 	output(sum);
 }
+
+   
